@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "1 font family selected";
+    src: url(fonts/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "montserrat" ;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #063143;
+    background-size: 1550px 830px;
+
+}
+
+.img-carousel{
+    height: 600px;
+    width: 1000px;
+    border-radius: 15px;
+    transition: all .5s;
+    border:  10px solid rgba(255, 255, 255, 0.13);
+    
+}
+
+.img-carousel:hover{
+    transform: scale(1.05);
+}
+
+.carousel{
+    padding: 10px 150px 0px 150px;
+}
+
+.campo-1{
+    background-color:#132030;
+    width: 1519px;
+    height: 100px;
+    padding: 25px 15px 0px 20px;
+
+}
+
+.conteiner-cards{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.campo-2{
+    background-color:#1c324198;
+    width: 1200px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 150PX;
+}
+
+.informacion{
+    width: 580px;
+    background-color:#1c324198;
+    color: white;
+    padding: 30px 50px 50px 50px;   
+    text-align: justify;
+    font-size:"montserrat";
+    border-radius: 10px;
+    margin-left: 150PX;
+    margin-top: 21px;
+    position: absolute;
+
+}
+
+.image-card{
+    height: 250px;
+    width: 365px;
+    padding: 10px 10px 10px 10px;
+    transition: all .5s;
+}
+
+.image-card:hover{
+    transform: scale(1.05);
+}
+
+.card{
+    background-color:#1c324198;
+    color: white;
+    border:  1px solid rgba(255, 255, 255, 0.13);
+}
+
+.card:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+h1{
+    margin-top: 30px;
+    font-family: "1 font family selected";
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-size: 60px;
+    font-weight: 100;
+    
+}
+
+h3{
+    font-family: "1 font family selected";
+    text-align: center;
+}
+
+.avion{
+    width: 60px;
+    height: 60px;
+}
+p{
+    text-align: justify;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color:#132030;
+    border-radius: 25px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #162f4d;
+}
+
+
+.tabla-de-precios{
+    margin-top: 20px;
+    background-color:#1c324198;
+    width: 600px;
+    border-radius: 10px;
+    padding: 15px 10px 10px 10px;
+    margin-left: 750PX;
+}
+.table{
+    color: rgb(0, 119, 223);
+}
+
+.avion-1{
+    margin-left: 1350px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.tabla-de-precios th{
+    background-color: #162f4dd0;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+
+.tabla-de-precios td{
+    background-color: #162f4dd0;
+    color: white;
+    border: 1px solid white;
+}
+
+.tabla-de-precios thead{
+    background-color: rgb(7, 49, 49);
+}
+
+.tabla-de-precios table{
+    border: 1px solid rgb(255, 255, 255);
+}
